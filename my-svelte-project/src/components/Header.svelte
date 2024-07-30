@@ -66,8 +66,8 @@
     
     <style>
       header {
-        background: linear-gradient(to right, #7e5bef, #f06d8e, #fa6b5c);
-        color: white;
+        background: linear-gradient(to right, #14b8a6, #ef4444, #fa6b5c);
+        color: wheat;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         padding: 1rem 0;
       }
@@ -112,7 +112,7 @@
         transition: color 0.2s ease;
       }
       button:hover, button.active {
-        color: #ffc107;
+        color: #ffac07;
       }
       svg {
         width: 1.5rem;
