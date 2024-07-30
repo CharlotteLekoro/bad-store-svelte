@@ -26,8 +26,8 @@
   
   {#if $cart.length === 0}
       <div class="text-center py-8">
-          <p class="text-xl text-gray-600">Your cart is empty</p>
-          <button class="inline-block mt-4 bg-purple-600 text-white px-6 py-2 rounded hover:bg-purple-700">Continue Shopping</button>
+          <p class="text-xl text-gray-800">Your cart is empty</p>
+          <button class="inline-block mt-4 bg-blue-600 text-white px-6 py-2 rounded hover:bg-purple-500">Continue Shopping</button>
       </div>
   {:else}
       <div class="space-y-4">
@@ -41,10 +41,10 @@
                       </div>
                   </div>
                   <div class="flex items-center space-x-2">
-                      <button on:click={() => decreaseQuantity(item)} class="px-2 py-1 bg-gray-200 rounded">-</button>
+                      <button on:click={() => decreaseQuantity(item)} class="px-2 py-1 bg-gray-400 rounded">-</button>
                       <span>{item.quantity}</span>
-                      <button on:click={() => increaseQuantity(item)} class="px-2 py-1 bg-gray-200 rounded">+</button>
-                      <button on:click={() => removeFromCart(item)} class="ml-4 text-red-500 hover:text-red-700">Remove</button>
+                      <button on:click={() => increaseQuantity(item)} class="px-2 py-1 bg-gray-400 rounded">+</button>
+                      <button on:click={() => removeFromCart(item)} class="ml-4 text-red-300 hover:text-red-300">Remove</button>
                   </div>
               </div>
           {/each}
@@ -62,7 +62,7 @@
               <span>Total:</span>
               <span>${total.toFixed(2)}</span>
           </div>
-          <button class="mt-4 w-full bg-purple-600 text-white px-6 py-3 rounded hover:bg-purple-700">Proceed to Checkout</button>
+          <button class="mt-4 w-full bg-emerald-600 text-white px-6 py-3 rounded hover:bg-emerald-400">Proceed to Checkout</button>
       </div>
   {/if}
   
@@ -77,15 +77,15 @@
       object-fit: contain;
     }
     .product-detail button {
-      background-color: #008CBA;
-      color: white;
+      background-color: #4f46e5;
+      color: wheat;
       padding: 10px 20px;
       border: none;
       cursor: pointer;
       margin: 5px;
     }
     .product-detail button:hover {
-      background-color: #005f75;
+      background-color: #818cf8;
     }
   </style>
   
