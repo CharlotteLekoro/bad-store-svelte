@@ -32,21 +32,21 @@
     }
   
     .dot1 {
-      background-color: #FFD700; /* Yellow */
+      background-color: #32312f; 
       animation-delay: -0.32s;
     }
   
     .dot2 {
-      background-color: #4169E1; /* Blue */
+      background-color: #4d4a45; 
       animation-delay: -0.16s;
     }
   
     .dot3 {
-      background-color: #FF69B4; /* Pink */
+      background-color: #4a4946; 
     }
   
     .dot4 {
-      background-color: #8A2BE2; /* Purple */
+      background-color: #54524e; 
       animation-delay: 0.16s;
     }
   
